@@ -1,38 +1,29 @@
 *{
 	font-family: 'Roboto', sans-serif;
 }
-ul li:hover {
+.menu ul li:hover {
 	background-color: #d8ab8b;
   border: 1px solid white;
 }
-.carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-.main-text {
-position: absolute;
-top: 50px;
-width: 96.66666666666666%;
-color: #FFF;
-}
-h1 {
+.cat h1,
+.cat p {
   color: white;
 }
-hr {
+.cat hr {
 background-color: white;
 width: 65px;
-float: left;
 }
-button {
+.cat button {
   background-color: none;
 }
-.btnstart{
+.cat .btnstart{
   color: black; /* цвет текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
   user-select: none; /* убирать выделение текста */
   background: rgb(165, 152, 150); /* фон кнопки */
   padding: .7em 1.5em; /* отступ от текста */
   outline: none; /* убирать контур в Mozilla */
+   border-radius:16px 16px 0 0;
 } 
 .btnstart span{
   color: #fff ; /* цвет текста */
@@ -40,12 +31,14 @@ button {
 .btnstart h2{
   font-size: 1.25em;
 }
-form {
-  background-color: pink;
-  border-radius:4px;
-} 
+.cat form {
+  background-color: #f1e3d1;
+  border-radius:16px 16px;
+}
 .btn{
   background-color: #d8ab8b;
+  width: 100%;
+  border-radius: 0 0 16px 16px ;
 }
 
 .btn:hover {
@@ -55,6 +48,9 @@ form {
 
 .cat{
   background-image: url("../images/cat.jpg");
+}
+.soc {
+  background: #f1e3d1;
 }
 .F{
   cursor: pointer;
@@ -119,4 +115,31 @@ form {
 .R:hover{
   background: url("../images/icon/ActiveR.png") no-repeat;
 }
-
+.history1 hr
+.history2 hr {
+  background: orange;
+  width: 65px;
+}
+h4 {
+}
+.history1 p{
+}
+.history1 {
+  background-color: #f1e3d1;
+}
+.kolo1 svg {
+  float: left;
+}
+.kolo2 svg {
+  float: left;
+}
+.kolo2 h4 {
+  clear: both;
+}
+.history2 hr {
+  background: orange;
+  width: 65px;
+}
+.nothing {
+  background: #212529;
+}
