@@ -92,5 +92,31 @@ form {
 .P:hover{
   background: url("../images/icon/ActiveP.png") no-repeat;
 }
-
+.I{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: url("../images/icon/noActiveI.png") no-repeat;
+}
+.I:hover{
+  background: url("../images/icon/ActiveI.png") no-repeat;
+}
+.S{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: url("../images/icon/noActiveS.png") no-repeat;
+}
+.S:hover{
+  background: url("../images/icon/ActiveS.png") no-repeat;
+}
+.R{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: url("../images/icon/noActiveR.png") no-repeat;
+}
+.R:hover{
+  background: url("../images/icon/ActiveR.png") no-repeat;
+}
 
